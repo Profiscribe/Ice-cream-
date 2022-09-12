@@ -1,8 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "homepage": "https://your_username.github.io/your_repo_name/",
+  "scripts": {
+  "build": "parcel build src/*.html --public-url /your_repo_name/"
+  },
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://alexandrvorontsov.github.io/ice-cream-hunters",
+  
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /ice-cream-hunters/"
